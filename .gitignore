@@ -1,6 +1,9 @@
 # Local Netlify folder
 .netlify
 
+# 배포 전 검토용 로컬 산출물 (서버에 올리지 않음)
+.fursys-deploy-hub/
+
 # Node
 node_modules/
 package-lock.json
