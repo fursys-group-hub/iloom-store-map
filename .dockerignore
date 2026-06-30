@@ -1,0 +1,22 @@
+# 웹 서버 이미지에 넣지 않을 것들 (데이터 수집·개발용)
+node_modules
+package.json
+package-lock.json
+crawlers
+scripts
+.git
+.github
+.gitignore
+.dockerignore
+Dockerfile
+.fursys-deploy-hub
+.env
+.netlify
+
+# 크롤링 임시 결과 (서빙 대상 아님)
+*_out.json
+crawled.json
+diff_report.md
+pending_changes.json
+applied_*.json
+competitors_data.backup.*.js
